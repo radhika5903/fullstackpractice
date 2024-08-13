@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="feedbackform.css">
 </head>
 <body>
+    <div id="coloring">
     <div id="Feedback">
         <h1>
             <i> Feedback Form </i> 
@@ -29,14 +30,14 @@
             <input type="number" id="age" placeholder="Enter your age" >
             <br><br>
             <label>Phone Number:</label>
-            <input type="number" name="country code" value="+91" placeholder="Enter your Phone number" max="10" /><br>
+            <input type="tel" name="country code" value="+91" placeholder="Enter your Phone number"   maxlength="13"/><br>
     </fieldset>
 </form>
     <br><br>
     <fieldset>
         <legend> <h3> Your Review </h3></legend>
         <label for="feedback-type">Type of Feedback:</label>
-        <label for="feedback-type">Type of Feedback:</label>
+        <select>
             <option value="positive">Positive</option>
             <option value="negative">Negative</option>
             <option value="suggestion">Suggestion</option>
@@ -64,6 +65,6 @@
     <br><br>
     <button type="submit">Submit Feedback</button>
     </fieldset>
-     
+</div>
 </body>
 </html>

@@ -1,0 +1,33 @@
+header{
+    
+    color: rgb(210, 250, 11);
+    border:  5px none black;
+    border-radius: 5px;
+    text-align: center;
+    
+    padding: 3px;
+    margin: 0;
+
+}
+.content{
+    background-color: hotpink;
+padding: 4px;
+
+border: none;
+margin: 50px;
+color: black;
+}
+footer{
+   
+    padding: 2px;
+    margin: 0;
+    text-align: center;
+   
+    color: red;
+    border: 2px none chartreuse;
+    border-radius: 2px;
+
+
+}
+    
+
